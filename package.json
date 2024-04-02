@@ -1,0 +1,19 @@
+{
+  "name": "monster-bunny-art",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Monster-Bunny/Text-Art.git",
+  "author": "Monster-Bunny",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "http-server -a localhost -p 80",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "watch && serve"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^4.9.3"
+  }
+}
